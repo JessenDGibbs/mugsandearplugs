@@ -16,9 +16,11 @@ function App() {
           <Route path="/Post1" element={<Post1 />} />
           <Route path="/Post2" element={<Post2 />} />
         </Routes>
+        <div className="links">
         <Link to="/Post1">Read this post</Link>
         <Link to="/Post2">Read this post</Link>
         </div>
+      </div>
     </Router>
   );
 
