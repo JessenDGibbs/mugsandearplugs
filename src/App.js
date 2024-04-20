@@ -19,6 +19,8 @@ function App() {
         <div className="links">
         <Link to="/Post1">Read this post</Link>
         <Link to="/Post2">Read this post</Link>
+
+
         </div>
       </div>
     </Router>
