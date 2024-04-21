@@ -10,6 +10,7 @@ import Post4 from './posts/Post4';
 
 import Home from './Home';
 import './App.css';
+import Post5 from './posts/Post5';
 
 function App() {
   return (
@@ -21,10 +22,12 @@ function App() {
           <Route path="/Post2" element={<Post2 />} />
           <Route path="/Post3" element={<Post3 />} />
           <Route path="/Post4" element={<Post4 />} />
+          <Route path="/Post5" element={<Post5 />} />
 
 
         </Routes>
         <div className="links">
+        <Link to="/Post5">Read this post</Link>
         <Link to="/Post4">Read this post</Link>
         <Link to="/Post3">Read this post</Link>
         <Link to="/Post2">Read this post</Link>
