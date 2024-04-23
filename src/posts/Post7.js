@@ -8,8 +8,8 @@ function Post7() {
        asking them to accomplish a goal within them. agency, and agents, have become a common 
        topic in the AI arena. the art of giving AI the ability to perform tasks, and have 
        agency, in systems beyond itself. orchestrating agents with different knowledge, objectives, and tools in order to complete
-        a given task has been a large part of my work lately. while designing the system, and listening to Ready Player Two, by 
-        Ernest Cline, i've come to see how it's just game design without the fun gamer 
+        a given task has been a large part of my work lately. while designing the system, and listening to 
+        <a href="https://en.wikipedia.org/wiki/Ready_Player_Two"> Ready Player Two, by Ernest Cline</a>, i've come to see how it's just game design without the fun gamer 
         vocab. i've also started looking at the job as a game design problem instead of 
         an AI problem and the it's 10x easier now. agents = characters, degrees of freedom = 
         tools, and constraints = rules, context, and role. but game characters on their 
