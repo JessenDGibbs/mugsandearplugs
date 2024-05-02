@@ -11,6 +11,7 @@ import Post5 from './posts/Post5';
 import Post6 from './posts/Post6';
 import Post7 from './posts/Post7';
 import Post8 from './posts/Post8';
+import Post9 from './posts/Post9';
 
 
 
@@ -29,10 +30,12 @@ function App() {
           <Route path="/Post6" element={<Post6 />} />
           <Route path="/Post7" element={<Post7 />} />
           <Route path="/Post8" element={<Post8 />} />
+          <Route path="/Post9" element={<Post9 />} />
 
 
         </Routes>
         <div className="links">
+        <Link to="/Post9">Read this post</Link>
         <Link to="/Post8">Read this post</Link>
         <Link to="/Post7">Read this post</Link>
         <Link to="/Post6">Read this post</Link>
