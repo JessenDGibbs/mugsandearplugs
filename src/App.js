@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './Home';
 import './App.css';
@@ -22,6 +21,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Post1" element={<Post1 />} />

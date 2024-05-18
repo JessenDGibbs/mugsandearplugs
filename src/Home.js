@@ -7,6 +7,8 @@ function Home() {
   return (
     <div className="App">
       <header className="App-header">
+      <img src='./earplugs.jpeg' alt="Logo" style={{ width: '100px', height: 'auto' }}/>
+
         <p>
           <code>This is mugs and earplugs</code>.
         </p>
