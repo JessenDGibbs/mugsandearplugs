@@ -7,7 +7,6 @@ function Home() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src='/earplugs.jpeg' className="App-logo" alt="logo" />
         <p>
           <code>This is mugs and earplugs</code>.
         </p>
